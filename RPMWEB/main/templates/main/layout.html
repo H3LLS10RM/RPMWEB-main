@@ -13,11 +13,11 @@
         <span class="logo">RpmWeb</span>
         <h3>Навигация</h3>
         <ul>
-            <li>Личный кабинет</li>
-            <li>Работы</li>
-            <li>Тесты</li>
-            <li>Обратная связь</li>
-            <li>О нас</li>
+            {% for page_list , slug_list in combined_list %}
+            <li><a href="{% url 'main:get-page' page=slug_list %}"> {{ page_list }} </a></li>
+            {% endfor %}
+            
+
         </ul>
     </aside>
     <main>

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RPMWEB",
+    "\\RPMWEB\\main",
+    "\\RPMWEB\\main\\static",
+    "\\RPMWEB\\main\\static\\main",
+    "\\RPMWEB\\main\\static\\main\\img",
+    "\\RPMWEB\\main\\templates",
+    "\\RPMWEB\\main\\templates\\main",
+    "\\RPMWEB\\RPMWEB",
+    "\\RPMWEB\\RPMWEB\\__pycache__"
+  ],
+  "SelectedNode": "\\RPMWEB\\main\\templates\\main\\layout.html",
+  "PreviewInSolutionExplorer": false
+}
